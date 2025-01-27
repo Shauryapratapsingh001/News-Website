@@ -1,0 +1,46 @@
+
+
+.Heading {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.Heading h2 {
+  color: blue;
+}
+
+.Heading p {
+  color: gray;
+  font-size: 0.8;
+}
+.Heading span {
+  color: orangered;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search input {
+  padding: 0.7rem;
+  padding-right: 12rem;
+  border-radius: 5px;
+  border: none;
+}
+.btn {
+  color: white;
+  background: blue;
+  padding: 0.7rem;
+  padding-left: 0.8rem;
+  padding-right: 1rem;
+  margin-left: 0.8rem;
+  border-radius: 5px;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 3 cards per row */
+  gap: 16px; /* Space between cards */
+  padding: 16px;
+}
+
+

@@ -1,0 +1,22 @@
+.card {
+    width: 350px;
+    height: 400px;
+    margin-top: 40px;
+    background-color: azure;
+    border-radius: 10px;
+    border: 1px solid orangered;
+    overflow: hidden;
+  }
+  
+  .title h4{
+      font-size: 1rem;
+      font-weight: 800;
+      padding-left: 0.8rem;
+  }
+  
+  .title p{
+    color: #252323;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    padding-bottom: 0.8rem;
+  }
